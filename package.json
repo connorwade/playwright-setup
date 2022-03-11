@@ -11,6 +11,7 @@
     "test:chromium": "playwright test --project=chromium",
     "debug": "playwright test --debug --project=chromium",
     "debug:byTitle": "playwright test --debug -g",
+    "generate-tests": "playwright codegen",
     "report": "playwright show-report"
   },
   "keywords": [],
