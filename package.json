@@ -3,11 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "install-browsers": "playwright install",
+    "test": "playwright test",
+    "test:byTitle": "playwright test -g",
+    "test:firefox": "playwright test --project=firefox",
+    "test:chromium": "playwright test --project=chromium",
+    "debug": "playwright test --debug --project=chromium",
+    "debug:byTitle": "playwright test --debug -g",
+    "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.19.2"
+    "@playwright/test": "^1.19.2",
+    "typescript": "^4.6.2"
   }
 }
