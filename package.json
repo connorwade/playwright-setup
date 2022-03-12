@@ -9,6 +9,7 @@
     "test:byTitle": "playwright test -g",
     "test:firefox": "playwright test --project=firefox",
     "test:chromium": "playwright test --project=chromium",
+    "test:api": "playwright test tests/api --project=chromium",
     "debug": "playwright test --debug --project=chromium",
     "debug:byTitle": "playwright test --debug -g",
     "generate-tests": "playwright codegen",
