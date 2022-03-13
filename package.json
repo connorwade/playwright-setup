@@ -10,6 +10,7 @@
     "test:firefox": "playwright test --project=firefox",
     "test:chromium": "playwright test --project=chromium",
     "test:api": "playwright test tests/api --project=chromium",
+    "update:snapshots": "playwright test --update-snapshots",
     "debug": "playwright test --debug --project=chromium",
     "debug:byTitle": "playwright test --debug -g",
     "generate-tests": "playwright codegen",
