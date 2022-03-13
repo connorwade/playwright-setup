@@ -1,0 +1,1 @@
+export { default as PlaywrightDevPage } from './playwrightDev.page'
